@@ -2,5 +2,10 @@
 import streamlit as st
 
 
-st.button('submit')
+if st.button('submit',):
+    st.write('Hi')
+else:
+    st.write("bye")
+
+    
 
