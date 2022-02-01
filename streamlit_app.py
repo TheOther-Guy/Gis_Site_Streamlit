@@ -2,10 +2,10 @@
 import streamlit as st
 
 
-if st.button('submit',key='1'):
-    st.write('Hi')
+if st.button('goodbye',key='1'):
+    st.write('bye')
 else:
-    st.write("bye")
+    st.write("Hello")
 
 
 
